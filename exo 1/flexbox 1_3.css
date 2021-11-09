@@ -1,0 +1,39 @@
+.container {
+    width: 450px;
+    height: 350px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.container > div {
+    width: 100px;
+    height: 45%;
+}
+
+
+
+.cyan {
+    background-color: lightseagreen;
+}
+
+.blue {
+    background-color: #4e86ec;
+}
+
+.purple {
+    background-color: #8b31e0;
+}
+
+.orange {
+    background-color: #ff8b02;
+}
+
+.orangered {
+    background-color: orangered;
+}

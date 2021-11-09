@@ -1,0 +1,61 @@
+.container {
+    height: 200px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.container > div {
+    width: 23%;
+    height: 30%;
+}
+
+#large {
+    width: 98%;
+}
+
+.cyan {
+    background-color: lightseagreen;
+}
+
+.blue {
+    background-color: #2089b2;
+}
+
+.purple {
+    background-color: #9720b2;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orangered{
+    background-color: orangered;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .container {
+        height: 500px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .container > div {
+
+        width: 44%;
+        height: 15%;
+    }
+}
+
+
+
